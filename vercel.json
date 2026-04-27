@@ -1,5 +1,7 @@
 {
-  "buildCommand": "bun run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "tanstack-start"
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
 }
