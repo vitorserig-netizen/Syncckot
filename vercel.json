@@ -1,6 +1,5 @@
 {
   "buildCommand": "bun run build",
   "outputDirectory": "dist",
-  "framework": "other",
-  "nodeVersion": "20.x"
+  "framework": "other"
 }
